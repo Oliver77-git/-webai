@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typy umělé inteligence</title>
+    <meta name="description" content="Různé typy umělé inteligence">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .active {
+            font-weight: 600;
+            border-bottom: 2px solid #3b82f6;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigace -->
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">Umělá Inteligence</div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600 py-2 px-1">Co je AI?</a></li>
+                <li><a href="typy.html" class="text-gray-700 hover:text-blue-600 py-2 px-1 active">Typy AI</a></li>
+                <li><a href="budoucnost.html" class="text-gray-700 hover:text-blue-600 py-2 px-1">Budoucnost AI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hlavní obsah -->
+    <main class="container mx-auto px-4 py-12">
+        <section class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-gray-800 mb-6">Typy umělé inteligence</h1>
+            <img src="https://picsum.photos/800/400?random=2" alt="Ilustrace různých typů AI" class="w-full rounded-lg mb-8" loading="lazy">
+            
+            <div class="prose prose-lg text-gray-600">
+                <h2 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">1. Úzká AI (Slabá AI)</h2>
+                <p class="mb-4">Určena pro konkrétní úkoly bez vědomí nebo skutečné inteligence. Příklady: virtuální asistenti jako Siri a Alexa.</p>
+                
+                <h2 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">2. Obecná AI (Silná AI)</h2>
+                <p class="mb-4">Hypotetická AI, která může rozumět, učit se a aplikovat znalosti v různých kontextech, podobně jako lidská inteligence.</p>
+                
+                <h2 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">3. Superinteligence</h2>
+                <p class="mb-4">Teoretická AI, která překonává lidskou inteligenci ve všech aspektech včetně kreativity a řešení problémů.</p>
+                
+                <div class="bg-blue-50 p-6 rounded-lg mt-8">
+                    <h3 class="text-xl font-semibold text-blue-800 mb-2">Srovnání</h3>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white">
+                            <thead>
+                                <tr>
+                                    <th class="py-2 px-4 border-b">Typ</th>
+                                    <th class="py-2 px-4 border-b">Schopnosti</th>
+                                    <th class="py-2 px-4 border-b">Stav</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Úzká AI</td>
+                                    <td class="py-2 px-4 border-b">Jednoduché úkoly</td>
+                                    <td class="py-2 px-4 border-b">Existuje dnes</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Obecná AI</td>
+                                    <td class="py-2 px-4 border-b">Více úkolů</td>
+                                    <td class="py-2 px-4 border-b">Teoretická</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Superinteligence</td>
+                                    <td class="py-2 px-4 border-b">Všechny úkoly</td>
+                                    <td class="py-2 px-4 border-b">Hypotetická</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Patička -->
+    <footer class="bg-gray-100 mt-12 py-8">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+            <p>© 2023 Umělá Inteligence. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+</body>
+</html>

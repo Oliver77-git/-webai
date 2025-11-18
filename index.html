@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umělá inteligence</title>
+    <meta name="description" content="Informace o umělé inteligenci">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .active {
+            font-weight: 600;
+            border-bottom: 2px solid #3b82f6;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigace -->
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">Umělá Inteligence</div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-600 py-2 px-1 active">Co je AI?</a></li>
+                <li><a href="typy.html" class="text-gray-700 hover:text-blue-600 py-2 px-1">Typy AI</a></li>
+                <li><a href="budoucnost.html" class="text-gray-700 hover:text-blue-600 py-2 px-1">Budoucnost AI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hlavní obsah -->
+    <main class="container mx-auto px-4 py-12">
+        <section class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-gray-800 mb-6">Co je umělá inteligence?</h1>
+            <img src="https://picsum.photos/800/400?random=1" alt="Ilustrace konceptu umělé inteligence" class="w-full rounded-lg mb-8" loading="lazy">
+            
+            <div class="prose prose-lg text-gray-600">
+                <p class="mb-4">Umělá inteligence (AI) označuje schopnost strojů napodobovat lidské myšlení a chování.</p>
+                
+                <h2 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">Hlavní charakteristiky</h2>
+                <ul class="list-disc pl-6 mb-6">
+                    <li class="mb-2">Schopnost učení</li>
+                    <li class="mb-2">Řešení problémů</li>
+                    <li class="mb-2">Rozhodování</li>
+                    <li class="mb-2">Zpracování přirozeného jazyka</li>
+                </ul>
+                
+                <h2 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">Aplikace</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-medium mb-2">Zdravotnictví</h3>
+                        <p class="text-gray-600">AI pomáhá s diagnostikou, vývojem léků a personalizovanou léčbou.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-medium mb-2">Finance</h3>
+                        <p class="text-gray-600">Používá se pro detekci podvodů, algoritmické obchodování a hodnocení rizik.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Patička -->
+    <footer class="bg-gray-100 mt-12 py-8">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+            <p>© 2023 Umělá Inteligence. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+</body>
+</html>
